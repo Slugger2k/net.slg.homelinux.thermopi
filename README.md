@@ -31,7 +31,7 @@ java -jar ThermoPi-0.1.5.jar 800x600
 ```
 
 
-##Lizence:
+##License:
 ```
 Copyright 2016 Christian Mueller  (christian.muell3r@gmail.com)
 
