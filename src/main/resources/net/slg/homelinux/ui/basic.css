@@ -1,0 +1,137 @@
+/*
+ * Copyright 2016 Christian Mueller
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/* Scene Styling */
+.root {
+	-fx-background-color: #333333;
+}
+
+/* TextArea Styling */
+.text-area {
+	-fx-background-color: transparent; 
+	-fx-font-family: Consolas; 
+	-fx-highlight-fill: #00ff00; 
+	-fx-highlight-text-fill: #000000; 
+	-fx-text-fill: #00ff00;
+}
+
+.text-area .content {
+	-fx-background-color: #000000;
+}
+
+#topLabel {
+	-fx-text-fill: #ffffff;
+}
+
+
+
+/* Chart Styling */
+#chart {
+    -fx-padding: 10px;
+    -fx-background-color: transparent;
+}
+
+.chart-legend {
+	-fx-background-color: transparent;
+	-fx-padding: 20px;
+}
+
+.chart-legend-item{
+	-fx-text-fill: #ffffff;
+}
+
+.axis {
+	-fx-tick-label-fill: #ffffff;
+    -fx-tick-length: 20;
+    -fx-minor-tick-length: 10;
+}
+
+.axis-label {
+  -fx-text-fill: #ffffff;
+}
+
+.axis-tick-mark {
+    -fx-stroke: #ffffff;
+    -fx-stroke-width: 1; 
+}
+
+.axis-minor-tick-mark {
+    -fx-stroke: #BABABA;
+}
+
+.chart-series-line {    
+    -fx-stroke-width: 2px;
+    -fx-effect: null;
+}
+
+.chart-plot-background {
+	-fx-background-color: transparent;
+}
+
+.chart-vertical-grid-lines {
+	-fx-stroke: #808080;
+}
+
+.chart-horizontal-grid-lines {
+	-fx-stroke: #808080;
+}
+
+.chart-alternative-row-fill {
+	-fx-fill: #3D3D3D;
+	-fx-stroke: transparent;
+	-fx-stroke-width: 0;
+}
+
+.chart-alternative-column-fill {
+	-fx-fill: transparent;
+	-fx-stroke: #3D3D3D;
+	-fx-stroke-width: 0;
+}
+
+.default-color0 {
+	-fx-stroke: green;
+	-fx-font-size: 12; 
+	-fx-font-weight: bold;
+}
+
+.chart-line-symbol {
+	-fx-stroke: green;
+}
+
+.default-color0.chart-series-line { 
+	-fx-stroke: green;
+}
+.default-color1.chart-series-line { 
+	-fx-stroke: red;
+}
+.default-color2.chart-series-line { 
+	-fx-stroke: yellow;
+}
+.default-color3.chart-series-line { 
+	-fx-stroke: blue;
+}
+
+.default-color0.chart-line-symbol { 
+	-fx-background-color: green, white;
+}
+.default-color1.chart-line-symbol { 
+	-fx-background-color: red, white;
+}
+.default-color2.chart-line-symbol { 
+	-fx-background-color: yellow, white;
+}
+.default-color3.chart-line-symbol { 
+	-fx-background-color: blue, white;
+}
