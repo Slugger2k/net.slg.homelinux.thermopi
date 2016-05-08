@@ -5,6 +5,11 @@ JavaFX Client for showing temperature values in a chart.
 For DataSource MySQL Database or REST-WebService can be used.
 
 
+##Build with maven:
+```
+mvn clean package
+```
+
 ##Properties File: (thermopi.properties)
 
 ```
@@ -17,6 +22,7 @@ MySqlJdbc=jdbc:mysql://127.0.0.1/thermopi
 MySqlUser=thermopi
 MySqlPass=password
 ```
+
 
 ##Usage:
 ```
