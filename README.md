@@ -1,7 +1,7 @@
 #ThermoPi JavaFX ChartClient
 
-Example JavaFX ChartClient with MySQL & REST Data-Support.
-JavaFX Client for showing temperature values in a chart.
+Example JavaFX ChartClient.
+JavaFX Client for showing temperature values in a chart.  
 For DataSource MySQL Database or REST-WebService can be used.
 
 
